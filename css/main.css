@@ -10,11 +10,13 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-
+html, body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
    html {
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
     color: #444;
     height: 100%;
     scroll-behavior: smooth;
@@ -112,8 +114,8 @@ a {
     padding: 10px 0;
     font-weight: 500;
     border-top: 1px solid #e5e5e5;
-    margin-left: -20px;
-    width: 100%;
+    position: relative;
+    right: 25px;
 }
 
 #menu li a {
