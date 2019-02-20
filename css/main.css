@@ -87,7 +87,6 @@ a {
      display: none;
  }
  
-
 #logo {
    height: 70px;
    margin: 10px 0;
@@ -118,7 +117,7 @@ header {
 
 
 /* ----------- HEADER DESKTOP  ----------- */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1110px) {
         
 #mobile-menu{
     display: none
@@ -221,7 +220,7 @@ h1 {
 
 
 /* ----------- HERO Desktop  ----------- */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1110px) {
 
 #hero {
      min-height: 500px;
@@ -301,7 +300,7 @@ h1 {
 
 
 /* ----------- CHI SIAMO Desktop  ----------- */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1210px) {
      
     #chi-siamo {
         display: grid;
@@ -381,7 +380,7 @@ div.gallery {
 
    
 /* ----------- GALLERY Desktop  ----------- */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1110px) {
   
     #gallery-container-section {
         background: url('../img/test-3.png');
@@ -466,7 +465,7 @@ div.gallery {
 }
 
 /* ----------- GALLERY Desktop  ----------- */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1110px) {
  
 .collaborazioni-container-1 {
     display: flex;
@@ -584,7 +583,7 @@ div.gallery {
 
 
 /* ----------- CONTATTI Desktop  ----------- */
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1100px) {
 
     #contatti-info {
         display: grid;
