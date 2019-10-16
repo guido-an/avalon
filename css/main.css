@@ -116,6 +116,7 @@ header {
 }
 
 
+
 /* ----------- HEADER DESKTOP  ----------- */
 @media only screen and (min-width: 1110px) {
         
@@ -135,10 +136,13 @@ header {
     font-weight: 600;
 }
 
-#menu li a:hover {
+#menu .link-menu:hover {
     padding-bottom: 5px;
     border-bottom: 2px solid #b2392f;
 }
+
+
+
 
 header {
     height: 90px;
@@ -157,7 +161,6 @@ header .social-icons {
 header .social-icons img {
     margin: 0 5px;
 } 
-
 }
 
 
