@@ -622,6 +622,9 @@ div.gallery {
         justify-content: space-around;
         width: 60%;
     }
+    #cashback-pizza-new-school div{
+        width: 50%
+    }
     #cashback-pizza-new-school p {
         width: 80%;
         margin: 0 auto;
