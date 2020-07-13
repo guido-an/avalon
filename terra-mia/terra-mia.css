@@ -1,0 +1,93 @@
+#hero-terra-mia {
+    text-align: center;
+    min-height: 500px;
+    margin-top: 80px
+}
+
+#hero-terra-mia h1 {
+    position: relative;
+    top: 40px
+}
+
+#subtitle-terra-mia {
+    font-size: 16px !important;
+    margin-bottom: 20px
+}
+
+/* EVENTO */
+
+#terra-mia-evento {
+    padding: 0 10px
+}
+
+#terra-mia-evento img {
+    width: 90% !important;
+    margin: 0 auto;
+    display: block;
+}
+
+#terra-mia-evento h3 {
+    position: relative !important;
+    top: 40px !important
+}
+
+#terra-mia-evento a {
+    position: relative !important;
+    top: 20px !important;
+    color: #222 !important
+}
+
+@media(min-width: 1200px) {
+    #terra-mia-evento {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #terra-mia-evento img {
+        width: 80% !Important;
+    }
+}
+
+/*GALLERY */
+
+#gallery-terra-mia {
+    margin-top: 120px
+}
+
+#gallery-terra-mia img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 3px
+}
+
+@media(min-width: 768px) {
+    #gallery-terra-mia {
+        display: flex;
+    }
+}
+
+/* COME FUNZIONA */
+
+#come-funziona {
+    margin-top: 120px
+}
+
+#come-funziona h3 {
+    position: relative !important;
+    top: 40px !important
+}
+
+@media(min-width: 768px) {
+    #come-funziona {
+        width: 70%;
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+}
+
+/* COLLABORAZIONI */
+
+#collaborazioni-evento {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-align: center;
+}
