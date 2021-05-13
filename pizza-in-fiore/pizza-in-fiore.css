@@ -1,0 +1,118 @@
+/* HERO */
+#hero-event {
+    text-align: center;
+}
+#hero-event span {
+    color: #b23930
+}
+#subtitle {
+    position: relative;
+    bottom: 20px;
+}
+#date {
+    font-weight: 600;
+    border-bottom: 2px solid #b23930;
+    width: 300px;
+    margin: 20px auto 0;
+    padding-bottom: 5px;
+}
+
+
+/* GALLERY */
+.gallery-event {
+    margin-top: 120px;
+    position:relative;
+    top: 120px
+}
+.gallery-event img{
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+@media(min-width: 700px){
+    .gallery-event {
+        display: flex;
+        justify-content: center
+    }
+   
+}
+
+/* MAIN CONTENT */
+#event-content {
+    margin: 10vh 15px 80px;
+    text-align: left;
+}
+.section {
+    margin-bottom: 40px
+}
+.section ul li {
+    margin-top: 20px;
+}
+
+@media(min-width: 968px){
+    #event-content {
+        margin: 10vh 15vw 80px;
+        
+    }
+}
+
+/* PARTNER */
+#partner {
+    margin-top: 40px;
+}
+#partner div {
+    margin-bottom: 20px
+}
+/* FORM */
+#form {
+    margin: 80px auto 0;
+    text-align: center;
+}
+
+#form input {
+    display: block;
+    width: 90vw;
+    margin: 40px auto 20px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0px 4px 14px 0 rgba(0, 0, 0, 0.1);
+}
+
+#form button {
+        border: 2px solid #fff;
+        border-radius: 35px;
+        margin: 20px auto;
+        background-color: #000;
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 10px;
+        height: 50px;
+        width: 180px; 
+}
+
+@media(min-width: 968px){
+    #form input {
+       width: 40vw
+    }
+}
+
+/* VIDEO */
+#container-video {
+    width: 100vw;
+    height: 500px;
+    margin: 0 auto
+}
+
+@media(min-width: 968px){
+    #container-video {
+       margin: 80px auto 0
+    } 
+}
+
+#logo-avalon {
+    position: relative;
+    top: 20px
+}
