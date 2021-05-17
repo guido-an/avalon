@@ -113,7 +113,7 @@ header {
 
 /* ----------- HEADER DESKTOP  ----------- */
 
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1328px) {
     #mobile-menu {
         display: none
     }
