@@ -357,6 +357,14 @@ div.desc {
     background-color: #dd3930;
 }
 
+#senza-glutine {
+    background-color: white !important;
+    color: #222 !important;;
+    border: 1px solid #222;
+    font-weight: 500 !important;
+    margin-top: 20px;
+}
+
 /* ----------- GALLERY Desktop  ----------- */
 
 @media only screen and (min-width: 1110px) {
@@ -376,6 +384,8 @@ div.desc {
         margin: 0 auto;
         padding-top: 10px;
     }
+
+
 }
 
 /* ==========================================================================
