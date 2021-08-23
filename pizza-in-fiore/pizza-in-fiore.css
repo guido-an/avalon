@@ -17,6 +17,19 @@
     padding-bottom: 5px;
 }
 
+#btn-pizza-in-fiore {
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 40px auto 10px;
+    display: block;
+    width: 220px;
+    background-color: #b23930;
+    text-align: center;
+    color: #fff
+}
+
 
 /* GALLERY */
 .gallery-event {
